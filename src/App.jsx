@@ -9,7 +9,7 @@ export const App = () => (
   <div className="page">
     <div className="page-content">
       <div className="movies">
-        <MovieList key={moviesFromServer.imdbId} movies={moviesFromServer} />
+        <MovieList movies={moviesFromServer} />
       </div>
     </div>
 
